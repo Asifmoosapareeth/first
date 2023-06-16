@@ -6,5 +6,8 @@ void main(){
   print('data=$data');
   dynamic data1="hello";
   data1=10;
-  data1
+  data1=5;
+  data1="asif";
+  print(data1);
+
 }
