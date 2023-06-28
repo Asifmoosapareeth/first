@@ -1,10 +1,10 @@
-void main({
-  string name ="Asif Moosa pareeth";
+void main(){
+  String name =("Asif Moosa pareeth");
   int age =23;
-  string email = "asifmoosa199@gmail.com";
+  String email = "asifmoosa199@gmail.com";
   int phone = 7559815386;
   double mark = 9.5;
-  string place = vannappuram;
+  String place = 'vannappuram';
 
 
  print('my name is $name') ;
