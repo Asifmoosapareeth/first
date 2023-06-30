@@ -17,11 +17,11 @@ print('function 4 => $data_from_func4');
 void func1(){
   print ('inside function 1');
 }
-// 2.function without return type and with arguments(PARAMETERIZED Function without return type) with argumnt wihout return tupe
+// 2.function without return type and with arguments(PARAMETERIZED Function without return type) with argument without return type
 void func2(int a, int b){
   print ('inside function 2 sum = ${a+b}');
 }
-//3. function with return type and without arguments(default function with return type)
+//3. function with return type and without arguments(DEFAULT function with return type)
 int func3 (){
   print("inside function 3");
   return 10;                    // this line is manditory for a fucntion with return type- return statement can return local variabble
