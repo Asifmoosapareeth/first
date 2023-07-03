@@ -1,5 +1,6 @@
 /// parameterised Function
-// 1. optional positional parameterised function
+
+/// 1. optional positional parameterised function
 //here phone and email are optional
 // so create a null aware ?
 void func1(String name,int age,[int? phone,String? email]){
@@ -28,8 +29,8 @@ void func3(String name, {int? age, required int phone, required String email}) {
 /// 3. optional Named Parameter function with default value
 void func4(String name, {int? age, required int phone, required String email,int year = 2023}) {
 
-  print('name =$name');             //default can change in next calling of same func
-  print('age =$age');                //func4 (asif,5454,aasA@gmai,int year
+  print('name =$name');             //default can change
+  print('age =$age');                //while entering default value under void main, we can change the value
   print('phone =$phone');
   print('email = $email');
   print ('year=$year');

@@ -27,7 +27,7 @@ int func3 (){
   return 10;                    // this line is manditory for a fucntion with return type- return statement can return local variabble
                                 //arguments and normal value
 }
-//4. function with return type and with arguments(default function with return type)
+//4. function with return type and with arguments
 String func4(String name,int age){
   String data= 'my name is $name , i am $age years old ';
   return data;     //cannot return more than one value
