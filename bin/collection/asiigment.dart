@@ -10,7 +10,7 @@ void main(){
 
     for (int i=0;i<12;i++) {
       if (l1[i]>=0&&l1[i] % 2 == 0)
-        sum =sum +l1[i];
+        sum =sum +l1[i];                //second question
 }
   print('sum of even numbers is $sum');
 }
