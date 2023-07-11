@@ -20,6 +20,7 @@ class sbi extends bank {
   void withdraw(int amount) {
     if(newbalance<amount){
       print('you dont have much balance');
+      current=newbalance;
     }else {
       current = newbalance - amount;
       print('amount after withdrw = $current');
@@ -27,6 +28,7 @@ class sbi extends bank {
   }
   @override
   void checkbalance(int amount) {
+
     print('current balance = $current ');
   }
 }
