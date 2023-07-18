@@ -11,6 +11,7 @@ mixin B{
   int c = 34;
   void display();
 }
+
 class C with A,B{
   @override
   void display() {
